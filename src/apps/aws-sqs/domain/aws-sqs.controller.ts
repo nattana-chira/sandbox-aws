@@ -23,7 +23,7 @@ class AwsSqsController {
   }
 
   static sqsSevice() {
-    const queueUrl = 'https://sqs.ap-southeast-1.amazonaws.com/931623697513/MyQueue.fifo'
+    const queueUrl = 'https://sqs.ap-southeast-1.amazonaws.com/931623697513/MyQueue2.fifo'
     
     return new AwsSqsService({
       accessKeyId: process.env.AWS_ACCESS_KEY_ID,
